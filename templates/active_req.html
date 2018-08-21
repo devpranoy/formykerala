@@ -411,12 +411,7 @@ Register
                                   <td>{{donors['Items'][i]['PhoneNumber']}}</td>
                                   <td>{{donors['Items'][i]['Taluk']}}</td>
                                   <td>{{donors['Items'][i]['District']}}</td>
-                                  <td>{%for j in donors['Items'][i]['DonationItems'].keys()%}
-                                  {{ j }} &nbsp;
-                                        {% endfor %}</td>
-                                  <td>{%for j in donors['Items'][i]['DonationItems'].keys()%}
-                                        {{ donors['Items'][i]['DonationItems'][j] }} &nbsp;
-                                              {% endfor %}</td>
+                                 
                                 </tr>
                               </tbody>
                               {% endfor %}
